@@ -1,0 +1,56 @@
+*   Trying 172.67.199.131:443...
+* Connected to api.shwary.com (172.67.199.131) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+* SSL certificate problem: unable to get local issuer certificate
+* Closing connection 0
+=== Request at 2026-02-19T12:48:45+03:00 ===
+Array
+(
+    [url] => https://api.shwary.com/api/v1/merchants/payment/sandbox/DRC
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 0.733332
+    [namelookup_time] => 0.008724
+    [connect_time] => 0.248328
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 172.67.199.131
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.43.157
+    [local_port] => 64281
+    [http_version] => 0
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 0
+    [connect_time_us] => 248328
+    [namelookup_time_us] => 8724
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 733332
+    [effective_method] => GET
+)
+
+Error: SSL certificate problem: unable to get local issuer certificate
+Response:
+
+
